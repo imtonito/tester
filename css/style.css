@@ -1,0 +1,151 @@
+body {
+color: black
+}
+
+h1, h2{
+  color: #333333
+}
+
+/* Custom container */
+.container-narrow {
+margin: 0 auto;
+max-width: 700px;
+}
+.container-narrow > hr {
+margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+margin: 60px 0;
+text-align: center;
+}
+.jumbotron h1 {
+font-size: 72px;
+line-height: 1;
+}
+.jumbotron .btn {
+font-size: 21px;
+padding: 14px 84px;
+}
+
+/* Supporting marketing content */
+.marketing {
+margin: 60px 0;
+}
+.marketing p + h4 {
+margin-top: 28px;
+}
+
+#scobo-form {
+/*    margin-top: 20px;
+    border: 1px solid #eee;
+    padding: 20px 40px;
+    border-radius: 3px;
+    position: relative;*/
+}
+
+.f-left {float: left;}
+.f-right {float : right;}
+
+.hidden {display: none;}
+#loading {
+    background: url('../img/loading.gif');
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 80px;
+}
+
+.relative {position: relative}
+
+table.notification {
+    margin-top: 20px
+}
+
+.error {
+    color: red
+}
+
+#preference-question .wrapper{
+    background: white;
+    padding: 20px 10px
+}
+
+ul , ul.li{
+    list-style: none
+}
+
+.question-list > li {
+    margin-bottom: 20px
+}
+
+.chat-bubble-arrow-border-green {
+    border-color: transparent transparent #58b258 transparent;
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: -20px;
+    left: 135px;
+}
+
+
+.chat-bubble-arrow-green {
+    border-color: transparent transparent #fff transparent;
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: -24px;
+    left: 135px;
+    z-index: 10;
+}
+
+.chat-bubble-arrow-border-red {
+    border-color: transparent transparent #E95D60 transparent;
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: -20px;
+    left: 135px;
+}
+
+
+.chat-bubble-arrow-red {
+    border-color: transparent transparent #fff transparent;
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: -24px;
+    left: 135px;
+    z-index: 10;
+}
+
+.close-box {
+    background: url('http://www.capitalsphere.com/Content/images/AdminImages/close-icon.png');
+    width: 28px;
+    height: 28px;
+    background-size: 28px;
+    position: absolute;
+    top: -10px;
+    right: 190px;
+    opacity: 1;
+}
+
+#preference ul {
+    margin: 0 !important;
+}
+
+#preference ul li {
+    margin: 0 !important;
+}
